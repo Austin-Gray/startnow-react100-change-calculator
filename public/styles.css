@@ -1,0 +1,33 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+body {
+    /* Source: https://uigradients.com */
+    background: #3a7bd5;
+    background: -webkit-linear-gradient(to right, #3a6073, #3a7bd5);
+    background: linear-gradient(to right, #3a6073, #3a7bd5);
+}
+h1 {
+    color: white;
+}
+hr {
+    border-top-color: lightgray;
+}
+input {
+    margin-bottom: 10px;
+}
+.square {
+    padding: 5px;
+    height: 90%;
+    width: 110%;
+    background-color: #E8E8E8;
+}
+.square label {
+
+}
+.square p {
+    font-size: x-large;
+}
+.col-sm-3 {
+    height: 100px;
+}
