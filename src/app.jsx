@@ -17,7 +17,7 @@ class App extends Component {
       pennies: '',
     }
   }
-
+  
   handleChange(event) {
     this.setState({[event.target.name]: event.target.value})
   }
