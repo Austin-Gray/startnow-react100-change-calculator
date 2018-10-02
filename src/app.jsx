@@ -21,7 +21,7 @@ class App extends Component {
   handleChange(event) {
     this.setState({[event.target.name]: event.target.value})
   }
-
+  
   calculate({amountDue, amountReceived}) {
     var changeDue = (amountReceived - amountDue).toFixed(2);
     var twenties = Math.trunc(changeDue / 20);
